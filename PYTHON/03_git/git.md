@@ -52,10 +52,42 @@
 ```python
 # git log
 ```
-
 ### 직전 커밋 이름 수정
 ```python
 # git commit --amend // vi or vim 이라고 부른다 (메모장)
 # :wq >> (write and quit)
 # :q >> quit
+``` 
+
+### Repository의 구분
+```python
+local repository = 로컬저장소 > 1개이다.
+remote repository = 원격저장소 > github 
+    개인용 : github
+    싸피용 : gitlab
+    git을 지원하는 것이다. git은 아니다.
+
+```
+
+### git 설정 초기화
+
+```python
+
+1번
+
+# git config --global --list
+# vim (고급 메모장)을 활용해서 설정 제거하기
+# vim git 설정 파일 열기
+ = vim ~/.gitconfig
+ # : wq (write and quit)
+
+2번
+``
+ code ~/.gitconfig
+```
+
+# git 커밋이 많을 때...
+```
+ git log --oneline
+
 ```
