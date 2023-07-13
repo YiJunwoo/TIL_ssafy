@@ -91,3 +91,6 @@ remote repository = 원격저장소 > github
  git log --oneline
 
 ```
+
+
+# git push origin 을 하면 github에 넣는당.
