@@ -33,7 +33,7 @@
 # 
 # git 기초 설정
 
-### 주어진 정보대로 작성
+### 주어진 정보대로 작성 (1회성)
 ```python
 # git config --global user.email "xxx@xxx"
 # git config --global user.name "name.name"
@@ -51,4 +51,11 @@
 ### 커밋 기록 확인하기
 ```python
 # git log
+```
+
+### 직전 커밋 이름 수정
+```python
+# git commit --amend // vi or vim 이라고 부른다 (메모장)
+# :wq >> (write and quit)
+# :q >> quit
 ```
