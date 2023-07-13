@@ -1,0 +1,54 @@
+# git 이란...?
+> 분산 버전 관리 시스템
+
+```python 
+# gitlab << ssafy에서 공부한 내용 저장
+# github << 개인공부할때 사용
+```
+
+# git 초기화
+```python
+# git init <<< (깃이 들어간다 생성한다 라는 의미.)
+```
+
+# Commit 
+```python
+''버전'' 변경된 파일들을 저장하는 행위이며, 마치 사진을 찍듯이 기록한다 하여 'snap shot' 이라고도 함.
+```
+
+### 상태 확인 명령어
+```python
+# git status >> 상태확인
+```
+
+### staging aread에 추가
+```python
+# git add {path}<folder_name>/{file_name}
+```
+
+### Repository에 저장하기
+```python
+# git commit -m "commit message" <띄워쓰기 유의해서 "" 쓸것>
+```
+# 
+# git 기초 설정
+
+### 주어진 정보대로 작성
+```python
+# git config --global user.email "xxx@xxx"
+# git config --global user.name "name.name"
+```
+
+### 등록한 정보 확인
+```python
+# git config --global --list
+```
+
+
+* 꿀팁 - 터미널에서 우클릭은 복사이다. 
+* 꿀팁 - Shift + Ins = 붙여넣기이다.
+
+### 커밋 기록 확인하기
+```python
+# git log
+```
